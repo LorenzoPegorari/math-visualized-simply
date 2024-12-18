@@ -1,0 +1,68 @@
+/* CSS reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+    font-family: "Roboto", serif;
+    font-style: normal;
+}
+
+/* Heading */
+#heading {
+    margin: 1rem;
+
+    text-align: center;
+}
+
+#heading a {
+    font-size: 2rem;
+    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-transform: uppercase;
+    color: #0a0a0a;
+    cursor: pointer;
+}
+
+#heading a:hover {
+    opacity: 0.7;
+}
+
+/* List */
+#list {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#list h3 {
+    margin: 0.3rem;
+    
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #0a0a0a;
+}
+
+#list li a {
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    color: #0a0a0a;
+    cursor: pointer;
+}
+
+#list li a:hover {
+    opacity: 0.7;
+}
+
+/* Main */
+#main {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
