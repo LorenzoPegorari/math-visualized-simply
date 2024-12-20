@@ -1,6 +1,8 @@
 /* CSS reset */
 * {
     box-sizing: border-box;
+    padding: 0;
+    border: none;
     margin: 0;
 
     font-family: "Roboto", serif;
@@ -9,7 +11,7 @@
 
 /* Heading */
 #heading {
-    margin: 1rem;
+    margin-top: 1rem;
 
     text-align: center;
 }
@@ -38,12 +40,23 @@
 }
 
 #list h3 {
-    margin: 0.3rem;
+    margin-top: 1.3rem;
+    margin-bottom: 1rem;
     
     font-size: 1.2rem;
     font-weight: 400;
     text-transform: uppercase;
     color: #0a0a0a;
+}
+
+#list ul {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    list-style: none;
 }
 
 #list li a {
